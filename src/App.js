@@ -4,6 +4,10 @@ import chair from "./img/chair.png";
 import myImage from "./img/myImage.jpg";
 import paskel from "./img/paskel.jpg";
 import headfon from "./img/pink_green_headphone.jpg";
+import kawan from "./img/kawan.jpg";
+import hewr from "./img/hewr.jpg";
+import controller from "./img/yellow_controller.jpg";
+import hand from "./img/pink_hand.jpg";
 
 import { IoSearch } from "react-icons/io5";
 import { FaSun } from "react-icons/fa";
@@ -121,9 +125,102 @@ function App() {
       <container className="flex container mx-auto flex  gap-5 mt-20 ">
         <div className="">
           <img src={paskel} alt="byscil image" className="rounded " />
+          <button className="border border-green-600 font-bold text-sm text-green-600 px-2 rounded mt-5">
+            Science
+          </button>
+          <p className="text-3xl font-bold mt-5">
+            5 ways an electic bike will change your life
+          </p>
+          <div className="flex gap-5 items-center pt-7">
+            <img
+              src={hewr}
+              alt="myImage"
+              className="rounded-full bg-cover  size-14 border-4 border-yellow-300"
+            />
+            <p>
+              Hewr Srud <br />
+              January 27,2024
+            </p>
+          </div>
         </div>
         <div>
           <img src={headfon} alt="pin headfon" className="rounded" />
+          <button className="border border-green-600 font-bold text-sm text-green-600 px-2 rounded mt-5">
+            Mindset
+          </button>
+          <p className="text-3xl font-bold mt-5">
+            Even the greates can be improved upon
+          </p>
+          <div className="flex gap-5 items-center pt-5">
+            <img
+              src={kawan}
+              alt="myImage"
+              className="rounded-full bg-cover  size-14 border-4 border-yellow-300"
+            />
+            <p>
+              Kawan Idrees <br />
+              January 11,2024
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col py-5 items-center bg-slate-200 h-1/3 rounded ">
+          <p className="font-bold text-2xl  underline decoration-wavy">Auden</p>
+          <p className="text-center pt-5">
+            Auden is a modern amagazin styel ghost theme with dark and light
+            them and membership support
+          </p>
+          <div className="flex gap-3 mt-5 ">
+            <SlSocialFacebook className="text-2xl" />
+            <FaXTwitter className="text-2xl" />
+            <FaInstagram className="text-2xl" />
+            <FiLinkedin className="text-2xl" />
+          </div>
+        </div>
+      </container>
+
+      {/* #################################### CARD SECTION 2 ####################################### */}
+
+      <container className="flex container mx-auto flex  gap-5 mt-20 ">
+        <div className="">
+          <img src={controller} alt="controller image" className="rounded " />
+          <button className="border border-green-600 font-bold text-sm text-green-600 px-2 rounded mt-5">
+            Technology
+          </button>
+          <p className="text-3xl font-bold mt-5">
+            PS5 vs Xbox seriex X - how differenc are they?
+          </p>
+          <div className="flex gap-5 items-center pt-7">
+            <img
+              src={hewr}
+              alt="myImage"
+              className="rounded-full bg-cover  size-14 border-4 border-yellow-300"
+            />
+            <p>
+              Hewr Srud <br />
+              January 27,2024
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src={hand} alt="hand image" className="rounded" />
+          <button className="border border-green-600 font-bold text-sm text-green-600 px-2 rounded mt-5">
+            Mindset
+          </button>
+          <p className="text-3xl font-bold mt-5">
+            You should stop worrying about robots taking your job
+          </p>
+          <div className="flex gap-5 items-center pt-5">
+            <img
+              src={kawan}
+              alt="myImage"
+              className="rounded-full bg-cover  size-14 border-4 border-yellow-300"
+            />
+            <p>
+              Kawan Idrees <br />
+              January 11,2024
+            </p>
+          </div>
         </div>
 
         <div className="flex flex-col py-5 items-center bg-slate-200 h-1/3 rounded ">
