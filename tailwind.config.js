@@ -5,7 +5,11 @@ module.exports = {
     fontFamily: {
       display: ["Poppins"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        "regal-pink": "#E4E2E3",
+      },
+    },
   },
   plugins: [],
 };
