@@ -120,22 +120,23 @@ function App() {
 
       <container className="flex container mx-auto flex  gap-5 mt-20 ">
         <div className="">
-          <img src={paskel} alt="byscil image" className="rounded"/>
+          <img src={paskel} alt="byscil image" className="rounded " />
         </div>
         <div>
-          <img src={headfon} alt="pin headfon" className="rounded"/>
+          <img src={headfon} alt="pin headfon" className="rounded" />
         </div>
-        <div>
-          <p>Auden</p>
-          <p>
+
+        <div className="flex flex-col py-5 items-center bg-slate-200 h-1/3 rounded ">
+          <p className="font-bold text-2xl  underline decoration-wavy">Auden</p>
+          <p className="text-center pt-5">
             Auden is a modern amagazin styel ghost theme with dark and light
             them and membership support
           </p>
-          <div>
-          <SlSocialFacebook />
-          <FaXTwitter />
-          <FaInstagram />
-          <FiLinkedin />
+          <div className="flex gap-3 mt-5 ">
+            <SlSocialFacebook className="text-2xl" />
+            <FaXTwitter className="text-2xl" />
+            <FaInstagram className="text-2xl" />
+            <FiLinkedin className="text-2xl" />
           </div>
         </div>
       </container>
